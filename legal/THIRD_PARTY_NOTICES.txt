@@ -1,0 +1,31 @@
+﻿AmviBackUp - Third-party components
+Copyright (c) 2026 Maxim Dubkov (AmviSoft)
+
+AmviBackUp uses the following free components. They remain the property of their authors and stay under their own licenses. Nothing in the AmviBackUp license limits your rights under these licenses.
+
+1. Qt 6 and PySide6 (Qt for Python)
+   Used for the windows and controls of the program.
+   License: GNU Lesser General Public License version 3 (LGPLv3). Qt and PySide6 are also available under other licenses from The Qt Company.
+   Web: https://www.qt.io/qt-for-python   Source code: https://code.qt.io/
+   The Qt libraries are delivered as separate files (DLL files) in the folder "_internal\PySide6" inside the program folder. They are loaded dynamically, and you may replace them with other compatible versions of the libraries.
+   The license texts that were found on the computer that built the installer are stored in the folder "_internal\legal\third_party" inside the program folder. The full text of the LGPLv3 is also available at https://www.gnu.org/licenses/lgpl-3.0.html
+
+2. Python
+   The program runs on the Python interpreter.
+   License: Python Software Foundation License.
+   Web: https://docs.python.org/3/license.html
+
+3. PyInstaller
+   Used to build the program into an executable file.
+   License: GNU General Public License version 2 or later with an exception that allows the packaged program to be distributed under any license.
+   Web: https://pyinstaller.org
+
+4. SQLite
+   Used through Python for the program database.
+   License: public domain.
+   Web: https://www.sqlite.org/copyright.html
+
+5. Inno Setup
+   Used to create the installer and the uninstaller.
+   License: the Inno Setup license (free to use and to distribute installers created with it).
+   Web: https://jrsoftware.org/files/is/license.txt
