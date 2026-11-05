@@ -2,13 +2,28 @@
 
 Local backups. File versions. Flexible restore.
 
-AmviBackUp is a free Windows desktop application for backing up files and folders with version history. Create versions manually, when files change or on a schedule. Save copies as regular folders or ZIP archives, verify saved versions using SHA-256, and restore whole versions or selected files.
+AmviBackUp is a free, open-source Windows application that keeps versioned copies of your files and folders and helps you restore earlier versions.
 
-## Download
+## Download for Windows
 
-Open this repository's **Releases** section and select **AmviBackUp 22.0 Beta**.
-Download **AmviBackUp-Setup-21.1-beta.exe** and its matching **.sha256** file.
-Do not download the source archives if you only want to install the application.
+# [Download AmviBackUp for Windows (.exe)](https://github.com/AmviSoft/AmviBackUp/releases/download/v22.0-beta/AmviBackUp-Setup-22.0-beta.exe)
+
+Windows 10/11, 64-bit · Version 22.0-beta · Free · MIT License
+
+[Release notes and SHA-256 checksums](https://github.com/AmviSoft/AmviBackUp/releases/tag/v22.0-beta)
+
+You do not need Python or a GitHub account to use the installer.
+
+This is a beta release. Keep an additional copy of important data.
+
+## Install
+
+1. Click the download link above.
+2. Run `AmviBackUp-Setup-22.0-beta.exe`.
+3. Follow the installation instructions.
+4. Open AmviBackUp, choose a file or folder to protect, and select a separate location for your backups.
+
+The green GitHub “Code” button downloads source code, not the Windows installer.
 
 - Windows 10 / Windows 11, x64
 - Installation for the current user; administrator rights are not required
